@@ -11,8 +11,6 @@ $ npm install express-fileupload
 ```
 * Run the app:
 ```
-$ npm install express
-$ npm install express-fileupload
 $ node app.js
 ```
 
