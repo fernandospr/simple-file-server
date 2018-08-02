@@ -6,8 +6,7 @@ This is a simple NodeJS file server
 * Install <a href="https://nodejs.org/en/download/">NodeJS</a>
 * Install packages:
 ```
-$ npm install express
-$ npm install express-fileupload
+$ npm install
 ```
 * Run the app:
 ```
