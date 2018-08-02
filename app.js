@@ -2,6 +2,8 @@ var express = require('express');
 var fileupload = require('express-fileupload');
 var app = express();
 
+var SERVER_PORT = process.env.PORT || 3000;
+
 app.use(fileupload());
 
 app.use('/files', express.static(__dirname + '/files'));
@@ -26,6 +28,6 @@ app.post('/files', function(req, res) {
   });
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(SERVER_PORT, function () {
+  console.log('Server listening on port %s', SERVER_PORT);
 });
