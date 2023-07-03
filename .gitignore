@@ -38,3 +38,5 @@ jspm_packages
 
 files/*
 !files/README.txt 
+
+.DS_Store
