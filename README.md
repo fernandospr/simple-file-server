@@ -1,5 +1,5 @@
 # simple-file-server
-This is a simple NodeJS file server
+This is a simple NodeJS file server that allows to host files.
 
 ## Quick Setup
 
@@ -26,5 +26,5 @@ curl -X POST \
   -F file=@/Users/fsproviero/Desktop/my-filename
 ```
 
-### To retrive a file
+### To retrieve a file
 Make a `GET` request to `/files/my-filename`
